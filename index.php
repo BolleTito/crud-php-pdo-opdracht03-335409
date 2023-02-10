@@ -6,32 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pdo Crud Opdracht 3</title>
 </head>
 <body>
     <h1>Invoer Achtbaan</h1>
 
     <form action="create.php" method="post">
-        <input type="text" name="Naam Achtbaan" id="Naam Achtbaan">
-        <label for="Naam Achtbaan">Naam Achtbaan:</label>
+        <label for="Naam Achtbaan">Naam Achtbaan:</label><br>
+        <input type="text" name="Naam Achtbaan" id="Naam Achtbaan"><br><br>
 
-        <input type="text" name="Naam Pretpark" id="Naam Pretpark">
-        <label for="Naam Pretpark">Naam Pretpark:</label>
+        <label for="Naam Pretpark">Naam Pretpark:</label><br>
+        <input type="text" name="Naam Pretpark" id="Naam Pretpark"><br><br>
 
-        <input type="text" name="Naam Land" id="Naam Land">
-        <label for="Naam Land">Naam Land:</label>
+        <label for="Naam Land">Naam Land:</label><br>
+        <input type="text" name="Naam Land" id="Naam Land"><br><br>
 
-        <input type="number" name="Topsnelheid" id="Topsnelheid">
-        <label for="Topsnelheid">Topsnelheid (km/u):</label>
+        <label for="Topsnelheid">Topsnelheid (km/u):</label><br>
+        <input type="number" name="Topsnelheid" id="Topsnelheid"><br><br>
 
-        <input type="number" name="Hoogte" id="Hoogte">
-        <label for="Hoogte">Hoogte (m):</label>
+        <label for="Hoogte">Hoogte (m):</label><br>
+        <input type="number" name="Hoogte" id="Hoogte"><br><br>
 
-        <input type="date" name="Datum" id="Datum">
-        <label for="Datum">Datum eerste opening:</label>
+        <label for="Datum">Datum eerste opening:</label><br>
+        <input type="date" name="Datum" id="Datum"><br><br>
 
-        <input type="range" value="5.5" min="1" max="10" step="0.1" name="Cijfer" id="Cijfer">
-        <label for="Cijfer">Cijfer voor achtbaan:</label>
+        <label for="Cijfer">Cijfer voor achtbaan:</label><br>
+        <input type="range" value="5.5" min="1" max="10" step="0.1" name="Cijfer" id="Cijfer"><br><br>
+
+        <input type="submit" value="Sla Op">
     </form>
     
 </body>
