@@ -38,7 +38,7 @@ $statement->bindValue(':Land', $_POST['Land'], PDO::PARAM_STR);
 $statement->bindValue(':Topsnelheid', $_POST['Topsnelheid'], PDO::PARAM_INT);
 $statement->bindValue(':Hoogte', $_POST['Hoogte'], PDO::PARAM_INT);
 $statement->bindValue(':Datum', $_POST['Datum'], PDO::PARAM_STR);
-$statement->bindValue(':Cijfer', $_POST['Cijfer'], PDO::PARAM_STR);
+$statement->bindValue(':Cijfer', $_POST['Cijfer'], PDO::PARAM_INT);
 // Vuur de query af op de database...
 $statement->execute();
 
