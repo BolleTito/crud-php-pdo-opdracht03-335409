@@ -13,14 +13,14 @@
     <h1>Invoer Achtbaan</h1>
 
     <form action="create.php" method="post">
-        <label for="Naam Achtbaan">Naam Achtbaan:</label><br>
-        <input type="text" name="Naam Achtbaan" id="Naam Achtbaan"><br><br>
+        <label for="NaamAchtbaan">Naam Achtbaan:</label><br>
+        <input type="text" name="NaamAchtbaan" id="NaamAchtbaan"><br><br>
 
-        <label for="Naam Pretpark">Naam Pretpark:</label><br>
-        <input type="text" name="Naam Pretpark" id="Naam Pretpark"><br><br>
+        <label for="NaamPretpark">Naam Pretpark:</label><br>
+        <input type="text" name="NaamPretpark" id="NaamPretpark"><br><br>
 
-        <label for="Naam Land">Naam Land:</label><br>
-        <input type="text" name="Naam Land" id="Naam Land"><br><br>
+        <label for="Land">Naam Land:</label><br>
+        <input type="text" name="Land" id="Land"><br><br>
 
         <label for="Topsnelheid">Topsnelheid (km/u):</label><br>
         <input type="number" name="Topsnelheid" id="Topsnelheid"><br><br>
