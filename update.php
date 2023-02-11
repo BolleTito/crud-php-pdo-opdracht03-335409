@@ -109,7 +109,7 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
 
         <input type="hidden" name="Id" value="<?php echo $result->Id; ?>">
 
-        <input type="submit" value="Sla Op">
+        <input type="submit" value="Sla Op" id="button">
     </form>
     
 </body>

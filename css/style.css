@@ -4,4 +4,13 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    text-align: center;
+}
+
+#button {
+    background-color: rgba(0, 0, 255, 0.685);
+    color: white;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 2rem;
 }

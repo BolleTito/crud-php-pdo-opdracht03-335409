@@ -32,10 +32,12 @@
         <input type="date" name="Datum" id="Datum"><br><br>
 
         <label for="Cijfer">Cijfer voor achtbaan:</label><br>
-        <input type="range" value="5.5" min="1" max="10" step="0.1" name="Cijfer" id="Cijfer"><br><br>
+        <input type="range" min="1" max="10" step="0.1" name="Cijfer" id="Cijfer" onchange="showValue(this.value)"><br>
+        <span id="score">5.5</span><br><br>
 
-        <input type="submit" value="Sla Op">
+        <input type="submit" value="Sla Op" id="button">
     </form>
     
 </body>
+<script src="functions/functions.js"></script>
 </html>
