@@ -105,7 +105,8 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
         <input type="date" name="Datum" id="Datum" value="<?php echo $result->Datum; ?>"><br><br>
 
         <label for="Cijfer">Cijfer voor achtbaan:</label><br>
-        <input type="range" value="5.5" min="1" max="10" step="0.1" name="Cijfer" id="Cijfer" value="<?php echo $result->Cijfer; ?>"><br><br>
+        <input type="range" value="5.5" min="1" max="10" step="0.1" name="Cijfer" id="Cijfer" value="<?php echo $result->Cijfer; ?>" onchange="showValue(this.value)"><br>
+        <span id="score">5.5</span><br><br>
 
         <input type="hidden" name="Id" value="<?php echo $result->Id; ?>">
 
@@ -113,4 +114,5 @@ $result = $statement->fetch(PDO::FETCH_OBJ);
     </form>
     
 </body>
+<script src="functions/functions.js"></script>
 </html>
